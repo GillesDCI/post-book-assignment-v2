@@ -40,12 +40,14 @@ app.listen(4000, () => {
 });
 ```
 
-## Task 3 - Setting up routes 
+## Task 3 - Setting up routes and controllers
 
-  1. Create a folder /routes 
-  2. Create a postsRoutes.js file 
-  3. Import the route applications into your `server.js` file.
-  4. Assign route applications to their respective route. `/post`
+  1. Create a folder `/routes`
+  2. Create a folder `/controllers`
+  3. Create a postsRoutes.js file 
+  4. Create a postsController.js  file
+  5. Import the router application into your `server.js` file.
+  6. Assign the router applications to their respective route. `/post`
 
 
 ## Task 4 - Create routes with their respective controller methods in postsRoutes.js
