@@ -32,7 +32,6 @@ This project assumes you've already had experience with:
 import express from 'express'
 const app = express();
 
-app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 
 app.listen(4000, () => {
@@ -44,8 +43,8 @@ app.listen(4000, () => {
 
   1. Create a folder `/routes`
   2. Create a folder `/controllers`
-  3. Create a postsRoutes.js file 
-  4. Create a postsController.js  file
+  3. Create a `postsRoutes.js` file 
+  4. Create a `postsController.js`  file
   5. Import the router application into your `server.js` file.
   6. Assign the router applications to their respective route. `/post`
 
