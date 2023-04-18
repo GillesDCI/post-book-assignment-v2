@@ -48,10 +48,10 @@ app.listen(4000, () => {
   4. Assign route applications to their respective route. `/post`
 
 
-## Task 4 - Create route handlers in postsRoutes.js
-  1. Create a GET route handler `/post/posts/` which exposes all the posts from dataposts.js
+## Task 4 - Create routes with their respective controller methods in postsRoutes.js
+  1. Create a GET route `/post/posts/` which exposes all the posts from dataposts.js
 
-  2. Create a POST route handler `/post/newpost/` which allows you to add a new post using the body: 
+  2. Create a POST route `/post/newpost/` which allows you to add a new post using the body: 
      ```json
       {
           "title":"My title",
@@ -60,7 +60,7 @@ app.listen(4000, () => {
      ```
 
 
-  3. Make sure the POST route handler automatically assigns the highest id to the new post :
+  3. Make sure the POST route automatically assigns the highest id to the new post :
    ```javascript
       maxId = Math.max.apply(Math, data.map(function(o) { return o.id; }));
    ```
