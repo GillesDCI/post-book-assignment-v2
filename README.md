@@ -1,6 +1,6 @@
 # Create Post-Book API 
 
-In this project we will create our own API of posts and connect it to a react front end. 
+In this project we will create our own API of posts. 
 
 ## What you will be doing
 
@@ -82,7 +82,7 @@ app.listen(4000, () => {
 
 
 ## Bonus - exercise (optional)
-- Link to bonus exercise for when you're ready with connecting the react app: 
+- Link to bonus exercise
   [Bonus](./BONUS.md) 
 
 
